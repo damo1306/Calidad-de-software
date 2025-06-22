@@ -3,6 +3,8 @@ import nltk
 # Descarga punkt solo si no está disponible
 nltk.download('punkt')  # Esto descarga el correcto
 
+enunciado = 0
+
 tokens = nltk.word_tokenize(enunciado)
 
 from openpyxl import Workbook
